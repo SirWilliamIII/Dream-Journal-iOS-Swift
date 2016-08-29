@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import CoreData
 
 private var materialKey = false
 
 extension UIView {
+	
+	// option that we can select inside of storyboard
 	
 	@IBInspectable var materialDesign: Bool {
 		
@@ -41,10 +44,6 @@ extension UIView {
 				
 			}
 		}
-		
-		
-		
-		
 	}
 	
 	

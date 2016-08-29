@@ -17,6 +17,7 @@ public class Item: NSManagedObject {
 		super.awakeFromInsert()
 		
 		// Easy way to create time stamp
+		// Assign current date to attribute 'created'
 		self.created = NSDate()
 	}
 
