@@ -76,10 +76,10 @@
 		6D04C28D1D70AD3900C4830F /* DreamLister */ = {
 			isa = PBXGroup;
 			children = (
+				6D04C2901D70AD3900C4830F /* MainVC.swift */,
 				6D04C2B51D70C67F00C4830F /* View */,
 				6D04C2B31D70B5B400C4830F /* Model */,
 				6D04C28E1D70AD3900C4830F /* AppDelegate.swift */,
-				6D04C2901D70AD3900C4830F /* MainVC.swift */,
 				6D04C2921D70AD3900C4830F /* Main.storyboard */,
 				6D04C2981D70AD3900C4830F /* Assets.xcassets */,
 				6D04C29A1D70AD3900C4830F /* LaunchScreen.storyboard */,
@@ -368,6 +368,7 @@
 				6D04C2A21D70AD3900C4830F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
