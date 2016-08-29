@@ -205,7 +205,7 @@
                                     <constraint firstAttribute="height" constant="216" id="3gT-nt-4z7"/>
                                 </constraints>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaV-XW-AwL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaV-XW-AwL">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0Ir-gg-gaI"/>
                                     <constraint firstAttribute="width" constant="125" id="ox7-mS-odh"/>
@@ -245,6 +245,12 @@
                             <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="detailsField" destination="u6a-aY-QTH" id="mkt-JO-XYg"/>
+                        <outlet property="priceField" destination="Ryy-AG-EUn" id="FOS-yN-TTn"/>
+                        <outlet property="storePicker" destination="Sb7-fZ-dgB" id="74r-JN-JUr"/>
+                        <outlet property="titleField" destination="9Ir-Zb-Fbg" id="tko-QZ-NrM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l0m-j4-iV0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -255,7 +261,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DvG-Wr-yqr" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="JoX-ZZ-x2I">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JoX-ZZ-x2I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -272,23 +278,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tst-zw-f6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="900" y="840"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="4kD-Xe-usw">
-            <objects>
-                <viewController id="KOa-0W-6Qx" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BpA-X3-B5j"/>
-                        <viewControllerLayoutGuide type="bottom" id="QW7-il-dsH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zxn-La-7yC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tfF-rH-YAy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>
